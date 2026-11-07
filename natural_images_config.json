@@ -1,0 +1,11 @@
+{
+  "model_file": "mobilenetv2_natural_images.keras",
+  "image_size": [
+    150,
+    150
+  ],
+  "preprocessing": "mobilenet_v2",
+  "class_names_file": "natural_images_class_names.json",
+  "class_order_source": "Natural-images notebook and natural_images_150_regularized_results.zip; not embedded in the supplied model",
+  "training_metadata_confirmed": false
+}

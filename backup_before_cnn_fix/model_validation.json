@@ -1,0 +1,28 @@
+{
+  "source": "User-supplied CNN_fruits.h5; no retraining",
+  "class_names": [
+    "apple",
+    "banana",
+    "orange"
+  ],
+  "test_images": 130,
+  "accuracy": 0.9307692307692308,
+  "confusion_matrix_actual_rows_predicted_columns": [
+    [
+      38,
+      7,
+      2
+    ],
+    [
+      0,
+      43,
+      0
+    ],
+    [
+      0,
+      0,
+      40
+    ]
+  ],
+  "keras_export_matches_h5": true
+}

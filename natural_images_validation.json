@@ -1,0 +1,37 @@
+{
+  "source_bytes": 21836569,
+  "inference_model_bytes": 9657031,
+  "input_shape": [
+    null,
+    150,
+    150,
+    3
+  ],
+  "output_classes": [
+    "airplane",
+    "car",
+    "cat",
+    "dog",
+    "flower",
+    "fruit",
+    "motorbike",
+    "person"
+  ],
+  "export_prediction_equivalence": true,
+  "preprocessing_range_checks_passed": true,
+  "streamlit_startup_passed": true,
+  "sample_predictions": [
+    {
+      "image": "C:\\Users\\lenovo\\Downloads\\cat.jpeg",
+      "prediction": "cat",
+      "score": 0.9987420439720154
+    },
+    {
+      "image": "C:\\Users\\lenovo\\Downloads\\dog.png",
+      "prediction": "dog",
+      "score": 0.9999995231628418
+    }
+  ],
+  "accuracy": null,
+  "limitation": "No matching labeled held-out dataset or MobileNetV2 training metadata supplied; sample predictions are smoke tests, not an accuracy measurement."
+}

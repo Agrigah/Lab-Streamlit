@@ -1,0 +1,28 @@
+{
+  "source": "Corrected CNN with ReLU convolution layers, trained locally",
+  "class_names": [
+    "apple",
+    "banana",
+    "orange"
+  ],
+  "test_images": 130,
+  "accuracy": 0.9538461538461539,
+  "confusion_matrix_actual_rows_predicted_columns": [
+    [
+      44,
+      1,
+      2
+    ],
+    [
+      3,
+      40,
+      0
+    ],
+    [
+      0,
+      0,
+      40
+    ]
+  ],
+  "keras_export_matches_h5": true
+}

@@ -1,0 +1,48 @@
+{
+  "model": "backup_before_cnn_fix/CNN_fruits.keras",
+  "class_order": [
+    "apple",
+    "banana",
+    "orange"
+  ],
+  "original_app_labels": [
+    "Banana",
+    "Orange",
+    "Apple"
+  ],
+  "correct_preprocessing_confusion": [
+    [
+      38,
+      7,
+      2
+    ],
+    [
+      0,
+      43,
+      0
+    ],
+    [
+      0,
+      0,
+      40
+    ]
+  ],
+  "double_normalization_confusion": [
+    [
+      47,
+      0,
+      0
+    ],
+    [
+      43,
+      0,
+      0
+    ],
+    [
+      40,
+      0,
+      0
+    ]
+  ],
+  "finding": "With double normalization every image predicts index 0. The original app incorrectly calls index 0 Banana."
+}
