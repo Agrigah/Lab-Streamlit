@@ -2,7 +2,7 @@
 
 Application web qui reconnaît la catégorie d'une image parmi **8 classes** et affiche un score de confiance.
 
-**Réalisé par :** [Nom Prénom] · [Filière / Classe]
+Réalisé par :agrigah aya
 
 ![Page d'accueil](docs/captures/01_accueil.png)
 
